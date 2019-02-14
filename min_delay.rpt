@@ -1,0 +1,50 @@
+Warning: Design 'cpu' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : cpu
+Version: N-2017.09-SP5
+Date   : Wed Dec 12 22:08:36 2018
+****************************************
+
+Operating Conditions: NCCOM   Library: tcbn40lpbwptc
+Wire Load Model Mode: segmented
+
+  Startpoint: IF_ID1/ins_dff15/state_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ID_EX1/op_dff3/state_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cpu                TSMC32K_Lowk_Conservative
+                                           tcbn40lpbwptc
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  IF_ID1/ins_dff15/state_reg/CP (DFKCND4BWP)              0.00       0.00 r
+  IF_ID1/ins_dff15/state_reg/Q (DFKCND4BWP)               0.11       0.11 f
+  ID_EX1/op_dff3/state_reg/D (EDFKCNQD1BWP)               0.00       0.11 f
+  data arrival time                                                  0.11
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.15       0.15
+  ID_EX1/op_dff3/state_reg/CP (EDFKCNQD1BWP)              0.00       0.15 r
+  library hold time                                      -0.04       0.11
+  data required time                                                 0.11
+  --------------------------------------------------------------------------
+  data required time                                                 0.11
+  data arrival time                                                 -0.11
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

@@ -1,0 +1,81 @@
+Warning: Design 'cpu' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : cpu
+Version: N-2017.09-SP5
+Date   : Wed Dec 12 22:08:36 2018
+****************************************
+
+Operating Conditions: NCCOM   Library: tcbn40lpbwptc
+Wire Load Model Mode: segmented
+
+  Startpoint: EX_MEM1/rd_addr_dff0/state_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: U_FLAG/flag2/state_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cpu                TSMC32K_Lowk_Conservative
+                                           tcbn40lpbwptc
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  EX_MEM1/rd_addr_dff0/state_reg/CP (EDFKCNQD4BWP)        0.00       0.00 r
+  EX_MEM1/rd_addr_dff0/state_reg/Q (EDFKCNQD4BWP)         0.11       0.11 f
+  U2026/ZN (CKND2BWP)                                     0.03       0.13 r
+  U2455/ZN (ND4D4BWP)                                     0.06       0.19 f
+  U2454/ZN (ND2D3BWP)                                     0.03       0.22 r
+  U2203/Z (OR2D4BWP)                                      0.04       0.26 r
+  U2706/Z (OR3D8BWP)                                      0.05       0.31 r
+  U1868/ZN (CKND6BWP)                                     0.02       0.33 f
+  U2286/ZN (DCCKND4BWP)                                   0.02       0.35 r
+  U2422/ZN (CKND6BWP)                                     0.02       0.37 f
+  U1858/Z (DEL025D1BWP)                                   0.05       0.42 f
+  U2052/ZN (AOI22D2BWP)                                   0.06       0.48 r
+  U2051/ZN (OAI21D2BWP)                                   0.05       0.52 f
+  U1872/CON (FCICOND1BWP)                                 0.07       0.59 r
+  U2501/ZN (MAOI222D1BWP)                                 0.09       0.68 f
+  U2129/ZN (INVD2BWP)                                     0.04       0.72 r
+  U2720/CON (FCICOND2BWP)                                 0.11       0.82 f
+  U3536/ZN (MAOI222D1BWP)                                 0.07       0.89 r
+  U2471/ZN (MAOI222D1BWP)                                 0.07       0.97 f
+  U1935/ZN (CKND2BWP)                                     0.04       1.01 r
+  U2486/ZN (XNR3D4BWP)                                    0.11       1.12 f
+  U2484/Z (OA21D1BWP)                                     0.06       1.18 f
+  U2061/Z (OA31D1BWP)                                     0.05       1.23 f
+  U2368/ZN (IAO21D2BWP)                                   0.03       1.26 r
+  U3210/Z (XOR4D1BWP)                                     0.13       1.39 r
+  U3209/Z (OA211D1BWP)                                    0.07       1.47 r
+  U1968/ZN (IIND4D2BWP)                                   0.06       1.52 f
+  U2712/ZN (IAO21D2BWP)                                   0.04       1.56 r
+  U2500/ZN (OAI211D2BWP)                                  0.05       1.61 f
+  U2499/ZN (NR2XD1BWP)                                    0.03       1.65 r
+  U2446/ZN (IND3D2BWP)                                    0.03       1.68 f
+  U2718/ZN (INR4D1BWP)                                    0.05       1.74 r
+  U_FLAG/flag2/state_reg/D (EDFKCNQD2BWP)                 0.00       1.74 r
+  data arrival time                                                  1.74
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  clock uncertainty                                      -0.15       1.85
+  U_FLAG/flag2/state_reg/CP (EDFKCNQD2BWP)                0.00       1.85 r
+  library setup time                                     -0.11       1.74
+  data required time                                                 1.74
+  --------------------------------------------------------------------------
+  data required time                                                 1.74
+  data arrival time                                                 -1.74
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

@@ -1,0 +1,73 @@
+###################################################################
+
+# Created by write_script -format dctcl on Sat Oct 19 10:41:21 2013
+
+###################################################################
+read_file -format sverilog {cpu.sv XOR.sv WriteDecoder_4_16.sv SRA.sv SLL.sv ROR.sv RegisterFile.sv Register.sv REGADDRGEN.sv RED.sv ReadDecoder_4_16.sv PC_control.sv PC.sv PADDSB.sv fullAdder_1bit.sv FLAG.sv dff.sv CONTROL.sv CLA4.sv BitCell.sv ALU.sv ADDSUB.sv}
+read_file -format verilog {Arbitration.v blockshifter.v  EX_MEM.v Forwarding_unit.v hazard_detection.v ID_EX.v IF_ID.v MEM_WB.v shifter.v }
+
+
+
+# Set the current_design #
+set current_design cpu 
+
+
+################################
+## Constrain and assign clock ##
+################################
+create_clock -name "clk" -period 2 -waveform {0 1} {clk}
+set_dont_touch_network [find port clk] 
+
+#####################################
+## Constrain input timings % Drive ##
+#####################################
+set prim_inputs [remove_from_collection [all_inputs]  [find port clk]]
+set_input_delay -clock clk 0.5 $prim_inputs
+set_driving_cell -lib_cell AO33D0BWP -from_pin A1 -library tcbn40lpbwptc $prim_inputs
+set_drive 0.1 rst_n
+
+#########################################
+## Constrain output timing and loads ####
+#########################################
+set_output_delay -clock clk 0.5 [all_outputs]
+set_load 0.1 [all_outputs]
+
+########################################
+## Set wireload and transition time ####
+########################################
+set_wire_load_model -name TSMC32K_Lowk_Conservative -library tcbn40lpbwptc
+set_max_transition 0.1 [current_design]
+
+########################
+## Compile the design ##
+########################
+compile -map_effort medium
+
+###########################################
+## Set clock uncertainty and do fix hold ##
+###########################################
+set_clock_uncertainty 0.15 clk
+set_fix_hold clk
+
+
+######################
+## Flatten hierachy ##
+######################
+ungroup -all -flatten
+
+#################
+## 2nd compile ##
+#################
+compile -map_effort medium 
+
+#####################################
+## Generate timing and area report ##
+#####################################
+report_timing -delay max > max_delay.rpt
+report_timing -delay min > min_delay.rpt
+report_area > area.rpt
+
+#############################################
+## Write out resulting synthesized netlist ##
+#############################################
+write -format verilog cpu -output cpu.vg

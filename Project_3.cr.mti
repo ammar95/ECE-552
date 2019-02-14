@@ -1,0 +1,367 @@
+I:/552/Project_3/hazard_detection.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/hazard_detection.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module hazard_detection
+
+Top level modules:
+	hazard_detection
+
+} {} {}} I:/552/Project_3/DataArray.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/DataArray.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module DataArray
+-- Compiling module Block
+-- Compiling module DWord
+-- Compiling module DCell
+
+Top level modules:
+	DataArray
+
+} {} {}} I:/552/Project_3/FLAG_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/FLAG_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module FLAG_tb
+
+Top level modules:
+	FLAG_tb
+
+} {} {}} I:/552/Project_3/PC_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/PC_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module PC_tb
+
+Top level modules:
+	PC_tb
+
+} {} {}} I:/552/Project_3/CLA4_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/CLA4_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module CLA4_tb
+
+Top level modules:
+	CLA4_tb
+
+} {} {}} I:/552/Project_3/PC.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/PC.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} I:/552/Project_3/cache_tb.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/cache_tb.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module cache_tb
+
+Top level modules:
+	cache_tb
+
+} {} {}} I:/552/Project_3/SRA.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/SRA.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module SRA
+
+Top level modules:
+	SRA
+
+} {} {}} I:/552/Project_3/test1.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/test1.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+
+} {} {}} I:/552/Project_3/cpu.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/cpu.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}} I:/552/Project_3/CONTROL.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/CONTROL.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module CONTROL
+
+Top level modules:
+	CONTROL
+
+} {} {}} I:/552/Project_3/WriteDecoder_4_16.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/WriteDecoder_4_16.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module WriteDecoder_4_16
+
+Top level modules:
+	WriteDecoder_4_16
+
+} {} {}} I:/552/Project_3/PC_control.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/PC_control.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module PC_control
+
+Top level modules:
+	PC_control
+
+} {} {}} I:/552/Project_3/Arbitration.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/Arbitration.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module Arbitration
+
+Top level modules:
+	Arbitration
+
+} {} {}} I:/552/Project_3/blockshifter.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/blockshifter.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} I:/552/Project_3/cache_module.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/cache_module.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module cache
+
+Top level modules:
+	cache
+
+} {} {}} I:/552/Project_3/Forwarding_unit.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/Forwarding_unit.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module Forwarding_unit
+
+Top level modules:
+	Forwarding_unit
+
+} {} {}} I:/552/Project_3/memory1cdata.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/memory1cdata.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module memory1cdata
+
+Top level modules:
+	memory1cdata
+
+} {} {}} I:/552/Project_3/IF_ID.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/IF_ID.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} I:/552/Project_3/ALU.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/ALU.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} I:/552/Project_3/fullAdder_1bit.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/fullAdder_1bit.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module fullAdder_1bit
+
+Top level modules:
+	fullAdder_1bit
+
+} {} {}} I:/552/Project_3/SLL.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/SLL.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module SLL
+
+Top level modules:
+	SLL
+
+} {} {}} I:/552/Project_3/memory1cinst.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/memory1cinst.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module memory1cinst
+
+Top level modules:
+	memory1cinst
+
+} {} {}} I:/552/Project_3/ReadDecoder_4_16.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/ReadDecoder_4_16.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ReadDecoder_4_16
+
+Top level modules:
+	ReadDecoder_4_16
+
+} {} {}} I:/552/Project_3/CONTROL_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/CONTROL_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module CONTROL_tb
+
+Top level modules:
+	CONTROL_tb
+
+} {} {}} I:/552/Project_3/EX_MEM.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/EX_MEM.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module EX_MEM
+
+Top level modules:
+	EX_MEM
+
+} {} {}} I:/552/Project_3/XOR.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/XOR.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module XOR
+
+Top level modules:
+	XOR
+
+} {} {}} I:/552/Project_3/FLAG.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/FLAG.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module FLAG
+
+Top level modules:
+	FLAG
+
+} {} {}} I:/552/Project_3/RegisterFile.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/RegisterFile.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} I:/552/Project_3/Register.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/Register.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} I:/552/Project_3/PADDSB.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/PADDSB.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module PADDSB
+
+Top level modules:
+	PADDSB
+
+} {} {}} I:/552/Project_3/ADDSUB_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/ADDSUB_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ADDSUB_tb
+
+Top level modules:
+	ADDSUB_tb
+
+} {} {}} I:/552/Project_3/ROR.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/ROR.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ROR
+
+Top level modules:
+	ROR
+
+} {} {}} I:/552/Project_3/ADDSUB.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/ADDSUB.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ADDSUB
+
+Top level modules:
+	ADDSUB
+
+} {} {}} I:/552/Project_3/PADDSB_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/PADDSB_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module PADDSB_tb
+
+Top level modules:
+	PADDSB_tb
+
+} {} {}} I:/552/Project_3/project-phase3-testbench.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/project-phase3-testbench.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module cpu_ptb
+
+Top level modules:
+	cpu_ptb
+
+} {} {}} I:/552/Project_3/CLA4.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/CLA4.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module CLA4
+
+Top level modules:
+	CLA4
+
+} {} {}} I:/552/Project_3/ID_EX.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/ID_EX.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
+} {} {}} I:/552/Project_3/memory.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/memory.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module memory1c
+
+Top level modules:
+	memory1c
+
+} {} {}} I:/552/Project_3/REGADDRGEN_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/REGADDRGEN_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module REGADDRGEN_tb
+
+Top level modules:
+	REGADDRGEN_tb
+
+} {} {}} I:/552/Project_3/dff.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/dff.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} I:/552/Project_3/REGADDRGEN.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/REGADDRGEN.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module REGADDRGEN
+
+Top level modules:
+	REGADDRGEN
+
+} {} {}} I:/552/Project_3/MEM_WB.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/MEM_WB.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module MEM_WB
+
+Top level modules:
+	MEM_WB
+
+} {} {}} I:/552/Project_3/d_cache.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/d_cache.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+
+} {} {}} I:/552/Project_3/MetaDataArray.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/MetaDataArray.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module MetaDataArray
+-- Compiling module MBlock
+-- Compiling module MCell
+
+Top level modules:
+	MetaDataArray
+
+} {} {}} I:/552/Project_3/memory1c.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/memory1c.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module memory1c
+
+Top level modules:
+	memory1c
+
+} {} {}} I:/552/Project_3/miss_handler.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/miss_handler.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module cache_fill_FSM
+-- Compiling module up_counter_4bit
+-- Compiling module df
+-- Compiling module dff
+
+Top level modules:
+	cache_fill_FSM
+	df
+	dff
+
+} {} {}} I:/552/Project_3/BitCell.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/BitCell.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module BitCell
+
+Top level modules:
+	BitCell
+
+} {} {}} I:/552/Project_3/ALU_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/ALU_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} I:/552/Project_3/RED_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/RED_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module RED_tb
+
+Top level modules:
+	RED_tb
+
+} {} {}} I:/552/Project_3/shifter.v {1 {vlog -work work -vopt -stats=none I:/552/Project_3/shifter.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module Shifter
+
+Top level modules:
+	Shifter
+
+} {} {}} I:/552/Project_3/RED.sv {1 {vlog -work work -vopt -sv -stats=none I:/552/Project_3/RED.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module RED
+
+Top level modules:
+	RED
+
+} {} {}}
